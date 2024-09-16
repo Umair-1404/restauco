@@ -1,93 +1,343 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Restauco</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Mitr:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <section class="section-1 ">
-        <nav class="navbar navbar-expand-lg navbar-light  ">
-            <div class="container-fluid left-content d-flex align-items-center">
-                <a class="navbar-brand" href="#"><img src="images/logo.png.webp" alt=""></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
-                  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                      <div class="navbar-nav fw-bolder">
-                          <a class="nav-link " aria-current="page" href="#">Home</a>
-                          <a class="nav-link" href="#">Menu</a>
-                      <a class="nav-link" href="#">About</a>
-                      <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                          Blog
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                          <li><a class="dropdown-item" href="#">Blog</a></li>
-                          <li><a class="dropdown-item" href="#">Blog Details</a></li>
-                          <li><a class="dropdown-item" href="#">Element</a></li>
-                        </ul>
-                      </li>
-                      <a class="nav-link" href="#">Contact</a>
-                    </div>
-                </div>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mitr:wght@200;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="section-1">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid left-content d-flex align-items-center">
+          <a class="navbar-brand" href="#"
+            ><img src="images/logo.png.webp" alt=""
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav fw-bolder">
+              <a class="nav-link" aria-current="page" href="#">Home</a>
+              <a class="nav-link" href="#">Menu</a>
+              <a class="nav-link" href="#">About</a>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Blog
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Blog</a></li>
+                  <li><a class="dropdown-item" href="#">Blog Details</a></li>
+                  <li><a class="dropdown-item" href="#">Element</a></li>
+                </ul>
+              </li>
+              <a class="nav-link" href="#">Contact</a>
             </div>
-            <div class="d-flex">
-                        <a href="" class="m-3 fs-6 py-1 text-danger nav-btn1 fw-bolder">Book a Table</a>
-                        <a href="" class="btn btn-danger m-2 p-3 fs-6 rounded-pill nav-btn "><i class="fas fa-phone mx-2"></i>+10 (78) 783 3674</a>
-               </div>
-              </nav>
-        <div class="container-fluid">
-            <div class="row ">
-                <div class="col-lg-6 my-5">
-                    <div class="sec-1-1"><h1 class="sec-1-h1">Meet, Eat & Enjoy the true test</h1>
-                    <p class="fs-5 fw-normal">Making a reservation at Délicious restaurant is easy and takes just a couple of minutes.</p>
-                 </div>   
-                 <div class="sec-1-2 mr-5" >
-                        <a href="" class="btn rounded-pill p-3 w-25 btn-lg btn-danger">Our Menu</a>
-                        <a href="" class="btn text-danger fs-5"><img src="images/play-button.svg"  alt=""> Watch Video</a>
-                    </div>
-                
-                </div>
-                <div class="col-lg-6">
-                    <img src="images/h1_hero1.jpg.webp" alt="" class="ms-1 img-1" >
-                </div>
-            </div>
-            <div class="review-outer rounded">
-                <div class="review-inner d-flex justify-content-between p-3">
-                    <div class="mt-4 ms-2 img-review">
-                        <img src="images/user.jpg.webp" alt="">
-                    </div>
-                    <div class="mt-2 ms-3 ratings">
-                    <p>"Délicious restaurant is easy and takes just a couple.</p>
-                    <ul class="list-inline ">
-                        <li class="list-inline-item"><i class="fa-solid fa-star fs-6" style="color: #fe5f41;"></i></li>
-                        <li class="list-inline-item"><i class="fa-solid fa-star fs-6" style="color: #fe5f41;"></i></li>
-                        <li class="list-inline-item"><i class="fa-solid fa-star fs-6" style="color: #fe5f41;"></i></li>
-                        <li class="list-inline-item"><i class="fa-solid fa-star fs-6" style="color: #fe5f41;"></i></li>
-                        <li class="list-inline-item"><i class="fa-solid fa-star fs-6" style="color: #fe5f41;"></i></li>
-                        <li class="list-inline-item text-danger fs-6">- Robert</li>
-                      </ul>
-                    </div>
-                </div>
-            </div>
+          </div>
         </div>
+        <div class="d-flex">
+          <a href="" class="m-3 fs-6 py-1 text-danger nav-btn1 fw-bolder"
+            >Book a Table</a
+          >
+          <a href="" class="btn btn-danger m-2 p-3 fs-6 rounded-pill nav-btn"
+            ><i class="fas fa-phone mx-2"></i>+10 (78) 783 3674</a
+          >
+        </div>
+      </nav>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-6 my-5">
+            <div class="sec-1-1">
+              <h1 class="sec-1-h1">Meet, Eat & Enjoy the true test</h1>
+              <p class="fs-5 fw-normal">
+                Making a reservation at Délicious restaurant is easy and takes
+                just a couple of minutes.
+              </p>
+            </div>
+            <div class="sec-1-2 mr-5">
+              <a href="" class="btn rounded-pill p-3 w-25 btn-lg btn-danger"
+                >Our Menu</a
+              >
+              <a href="" class="btn text-danger fs-5"
+                ><img src="images/play-button.svg" alt="" /> Watch Video</a
+              >
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <img src="images/h1_hero1.jpg.webp" alt="" class="ms-1 img-1" />
+          </div>
+        </div>
+        <div class="review-outer rounded">
+          <div class="review-inner d-flex justify-content-between p-3">
+            <div class="mt-4 ms-2 img-review">
+              <img src="images/user.jpg.webp" alt="" />
+            </div>
+            <div class="mt-2 ms-3 ratings">
+              <p>"Délicious restaurant is easy and takes just a couple.</p>
+              <ul class="list-inline">
+                <li class="list-inline-item">
+                  <i class="fa-solid fa-star fs-6" style="color: #fe5f41"></i>
+                </li>
+                <li class="list-inline-item">
+                  <i class="fa-solid fa-star fs-6" style="color: #fe5f41"></i>
+                </li>
+                <li class="list-inline-item">
+                  <i class="fa-solid fa-star fs-6" style="color: #fe5f41"></i>
+                </li>
+                <li class="list-inline-item">
+                  <i class="fa-solid fa-star fs-6" style="color: #fe5f41"></i>
+                </li>
+                <li class="list-inline-item">
+                  <i class="fa-solid fa-star fs-6" style="color: #fe5f41"></i>
+                </li>
+                <li class="list-inline-item text-danger fs-6">- Robert</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-2 mt-5">
+      <div class="container mt-5">
+        <h1 class="text-center ">Best way to eat healthy food</h1>
+        <p class="text-center fs-5 ">
+          Making a reservation at Délicious restaurant is easy and takes just a
+          couple of minutes.
+        </p>
+        <!--  -->
+
+        <div class="row mt-5 mb-5">
+          <div class=" col-lg-4 col-md-6 col-sm-6 ">
+            <div class="card h-100">
+                <img src="images/services1.svg" class="card-img-top services-img" alt="..." />
+              <div class="card-body text-center">
+                <h3 class="card-title">Healthy Meal</h3>
+                <p class="card-text fs-6 p-4">
+                    Making a reservation at Délicious restaurant is easy and takes just a couple of minutes.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class=" col-lg-4 col-md-6 col-sm-6">
+            <div class="card h-100">
+              <img src="images/services2.svg" class="card-img-top services-img" alt="..." />
+              <div class="card-body text-center">
+                <h3 class="card-title">Fast Food</h3>
+                <p class="card-text fs-6 p-4">Making a reservation at Délicious restaurant is easy and takes just a couple of minutes.</p>
+              </div>
+            </div>
+          </div>
+          <div class=" col-lg-4 col-md-6 col-sm-6">
+            <div class="card h-100">
+                <img src="images/services3.svg" class="card-img-top services-img" alt="..." />
+                <div class="card-body text-center">
+                <h3 class="card-title ">Delicious Coffee</h3>
+                <p class="card-text fs-6 p-4">
+                    Making a reservation at Délicious restaurant is easy and takes just a couple of minutes.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-3 ">
+      <div class="container text-light">
+      <div class="d-flex justify-content-between flex-fill ">
+        <div class="p-2 mt-5">
+          <h1 class="text-light">Most Popular Dishes</h1>
+          <p class="">Making a reservation at Délicious restaurant is easy and takes just a couple of minutes.</p>
+          <ul class="list-inline mt-5 fs-5 justify-content-evenly">
+            <li class="list-inline-item me-4">Breakfast</li>
+            <li class="list-inline-item me-4">Lunch</li>
+            <li class="list-inline-item me-4">Dinner</li>
+            <li class="list-inline-item me-4">Drinks</li>
+            <li class="list-inline-item">Fastfood</li>
+          </ul>
+        </div>
+        <div class="p-4 mt-5">
+          <a href="" class="btn rounded-pill mt-2 p-4 btn-danger sec-3-btn">Full Menu</a>
+        </div>
+      </div> 
+      <hr class="mt-0">
+
+      <div id="cardCarousel" class="carousel slide mt-5" data-bs-ride="carousel" data-bs-interval="2500">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="container">
+              <div class="row text-center">
+                <div class="col-lg-4">
+                  <div class="card text-dark">
+                    <img src="images/pro-items1.jpg.webp" class="card-img-top img-dishes " alt="Card Image 1">
+                    <div class="card-body p-5">
+                      <h5 class="card-title">Sandwich</h5>
+                      <p class="card-text p-3 mb-4 ">Making a reservation at Délicious restaurant is easy and</p>
+                      <a href="" class="m-3 fs-6 py-1 text-danger review-btn ">Book a Table</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4">
+                  <div class="card text-dark">
+                    <img src="images/pro-items2.jpg.webp" class="card-img-top img-dishes" alt="Card Image 2">
+                    <div class="card-body p-5">
+                      <h5 class="card-title">Tuna Steak</h5>
+                      <p class="card-text p-3 mb-4">Making a reservation at Délicious restaurant is easy and</p>
+                      <a href="" class="m-3 fs-6 py-1 text-danger review-btn ">Book a Table</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4">
+                  <div class="card text-dark">
+                    <img src="images/pro-items3.jpg.webp" class="card-img-top img-dishes" alt="Card Image 3">
+                    <div class="card-body p-5">
+                      <h5 class="card-title">Hamburger</h5>
+                      <p class="card-text p-3 mb-4">Making a reservation at Délicious restaurant is easy and</p>
+                      <a href="" class="m-3 fs-6 py-1 text-danger review-btn ">Book a Table</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <div class="row text-center">
+                <div class="col-lg-4">
+                  <div class="card text-dark">
+                    <img src="images/pro-items1.jpg.webp" class="card-img-top img-dishes " alt="Card Image 1">
+                    <div class="card-body p-5">
+                      <h5 class="card-title">Sandwich</h5>
+                      <p class="card-text p-3 mb-4">Making a reservation at Délicious restaurant is easy and</p>
+                      <a href="" class="m-3 fs-6 py-1 text-danger review-btn ">Book a Table</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4">
+                  <div class="card text-dark">
+                    <img src="images/pro-items2.jpg.webp" class="card-img-top img-dishes" alt="Card Image 2">
+                    <div class="card-body p-5">
+                      <h5 class="card-title">Tuna Steak</h5>
+                      <p class="card-text p-3 mb-4">Making a reservation at Délicious restaurant is easy and</p>
+                      <a href="" class="m-3 fs-6 py-1 text-danger review-btn ">Book a Table</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4">
+                  <div class="card text-dark">
+                    <img src="images/pro-items3.jpg.webp" class="card-img-top img-dishes" alt="Card Image 3">
+                    <div class="card-body p-5">
+                      <h5 class="card-title">Hamburger</h5>
+                      <p class="card-text p-3 mb-4">Making a reservation at Délicious restaurant is easy and</p>
+                      <a href="" class="m-3 fs-6 py-1 text-danger review-btn ">Book a Table</a>
+                    </div>
+                  </div>
+                </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev  " type="button" data-bs-target="#cardCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#cardCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      
+      
+    </div>
+    </section>
+
+    <section class="section-4"> 
+      <div class="container mt-5">
+        <div class="row">
+          <div class="col-lg-8 mt-5">
+            <img src="images/woner.jpg.webp" alt="">
+          </div>
+          <div class="col-lg-4 mt-5 ">
+            <div >
+              <h1 class="fs-1">Book a Table</h1>
+              <p>Making a reservation at Délicious restaurant is easy and takes just a couple of minutes.</p>
+           </div>
+            <form class="row g-3">
+              <div class="input-group mb-3">
+                <input type="text" class="form-control contact" placeholder="Number of Guests" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+              </div>
+
+              <div class="col-lg-6">
+                <input type="date" class="form-control contact" id="inputAddress" placeholder="Date" >
+              </div>
+              <div class="col-lg-6">
+                <div class="input-group mb-3">
+                  <button class="btn border dropdown-toggle w-100 ms-5 contact " type="button" data-bs-toggle="dropdown" aria-expanded="false">Breakfast</button>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#"selected>Breakfast</a></li>
+                    <li><a class="dropdown-item" href="#">Lunch</a></li>
+                    <li><a class="dropdown-item" href="#">Dinner</a></li>
+                    <li><a class="dropdown-item" href="#">Fastfood</a></li>
+                  </ul>
+                 </div>
+              </div>
+              <div class="col-lg-12">
+                <input type="text" class="form-control contact mb-3 " id="inputCity" placeholder="Phone No.">
+              </div>
+
+              <div class="col-lg-12">
+                <textarea class="form-control contact-textarea mb-3" cols="10" rows="4" id="inputZip" placeholder="Message"></textarea>
+              </div>
+              <div class="col-12">
+                <button type="submit" class="btn btn-danger contact-btn contact">Send Request</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
     </section>
 
 
-
-    <section class="section-2"></section>
-    <section class="section-3"></section>
-    <section class="section-4"></section>
     <section class="section-5"></section>
-    
-    
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-</body>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>

@@ -7,11 +7,17 @@
 .navbar{
     color: #4d312c;
 }
+/* Section 1*/
+
 .section-1{
     background-color: #FFF4F2;
     color: #4d312c;
-    /* font-weight: bolder; */
 }
+
+.section-2{
+    color: #4d312c;
+}
+
 .nav-btn{
     width: 228px;
     height: 56px;
@@ -26,6 +32,9 @@
 .sec-1-1{
     margin: 50px 50px;
 }
+p{
+    color: #94817E;
+}
 
 .sec-1-2{
     margin: 50px 50px;
@@ -37,7 +46,7 @@
 }
 
 .img-1{
-    width: 750px;
+    width: 743.5px;
     height: 600px;
 }
 
@@ -46,8 +55,8 @@
     height: 20%;
     background-color: #FFFFFF;
     position: absolute;
-    top: 68%;
-    right: 18%;
+    top: 65%;
+    right: 19%;
 }
 
 .ratings{
@@ -61,7 +70,57 @@
 .list-inline-item:last-child {
     margin: -1px;
 }
+/* Section 2*/
 
+.services-img{
+    /* height: 100px; */
+    width: 130px;
+    margin: 50px 140px;
+}
+
+/* Section 3*/
+.section-3{
+    background-image: url(images/section-bg1.jpg);
+    height: 900px;
+}
+
+.sec-3-btn{
+    width: 190px;
+    height: 75px; 
+    font-weight: 500;
+}
+.img-dishes{
+    width: 200px;
+    margin: 30px 100px;
+}
+
+.review-btn{
+    color: #FE5F41 ;
+    width: 120px;
+    font-weight: 500;
+    text-decoration: none;
+    border-bottom: 3px solid #FE5F41;
+    margin-bottom: 10px;
+}
+
+/* section-4 */
+
+.section-4{
+    color: #4d312c;
+}
+
+.contact{
+    height: 51px;
+    border-radius: 50px;
+}
+.contact-textarea{
+    border-radius: 18px;
+}
+
+.contact-btn{
+    width: 428px;
+    height: 56px;
+}
 
 @media only screen and (max-width: 768px) {
     .img-1{
