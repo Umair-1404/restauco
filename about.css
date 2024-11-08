@@ -1,0 +1,22 @@
+.img-1{
+    height: 350px;
+    width: 810px;
+}
+
+.insta-btn{
+    top: 319%;
+    left: 44%;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .img-1 {
+        width: 400px;
+    }
+
+    .insta-btn{
+        top: 578%;
+        left: 34%;
+    }
+
+}

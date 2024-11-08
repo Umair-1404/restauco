@@ -1,0 +1,40 @@
+.img-1{
+    height: 400px;
+    width: 726px;
+}
+
+.email{
+    margin-left: 22px !important;
+}
+
+.send-btn{
+    width: 120px;
+    height: 60px;
+    border: 1px solid #FE5F41;
+    color: #FE5F41;
+    border-radius: 0;
+}
+.send-btn:hover{
+    background-color: #FE5F41;
+    color: #fff;
+}
+
+.inner{
+    width: 415px;
+    font-size: 20px;
+    margin: 20px 100px;
+}
+.icons-li{
+    color: gray;
+
+}
+
+@media only screen and (max-width: 768px) {
+    .img-1 {
+        width: 402px;
+    }
+    .inner {
+        width: 354px;
+       margin: 45px 0px;
+    }
+}

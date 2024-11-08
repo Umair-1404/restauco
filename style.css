@@ -165,6 +165,17 @@ p{
     text-align: center;
 }
 
+.icons-li{
+    color: #FE5F41;
+    font-size: 25px;    
+    margin: 10px;
+}
+
+footer{
+    margin-top: 3rem !important;
+    margin-left: 3rem !important;
+}
+
 
 @media only screen and (max-width: 768px) {
     img{
@@ -198,12 +209,12 @@ p{
     .review-outer{
         width: 85%;
         height: auto;
-        top: 215%;
+        top: 120%;
         right: 4%;
     }
 
     .ratings{
-        font-size: 10px !important;
+        font-size: 15px !important;
     }
 
     .list-inline-mob{
@@ -217,7 +228,7 @@ p{
     }
 
     .services-img{
-        margin: 40px 65px;
+        margin: 40px 135px;
     }
 
     .sec-3-btn{
@@ -246,15 +257,18 @@ p{
     }
 
     .review-img{
-        margin: 18px 70px;
+        margin: 18px 147px;
     }
     
     
     .insta-btn{
-        top: 726%;
-        width:60%;
-        left: 20%;
+        top: 722%;
+        width: 40%;
+        left: 31%;
         text-align: center;
     }
     
+    footer{
+        margin-left:0px !important;
+    }
 }
